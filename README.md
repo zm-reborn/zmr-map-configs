@@ -16,3 +16,11 @@ Structure should then look like this:
 
 A restart is required for the game to recognize the new search paths.
 
+
+**Easy updating**
+
+- Download Git
+- Clone the repository with: `git clone -c core.symlinks=true https://github.com/zm-reborn/zmr-map-configs/ <somefolder>`
+- Create symlinks for the custom folder (ie. `<somefolder>/custom/configs <---> <gamefolder>/custom/configs`)
+- Whenever there is an update, run `git pull` in the repository folder to download the changes.
+
